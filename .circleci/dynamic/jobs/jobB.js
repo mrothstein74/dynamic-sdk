@@ -3,6 +3,6 @@ const dockerNode = require("../executors/docker-node");
 
 const jobB = new CircleCI.Job("jobB", dockerNode);
 
-jobA.addStep(new CircleCI.Command.Run({ command: "echo hello from Job B" }));
+jobB.addStep(new CircleCI.Command.Run({ command: "echo hello from Job B" }));
 
 module.exports = jobB;
