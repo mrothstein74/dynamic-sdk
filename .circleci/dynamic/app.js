@@ -2,7 +2,7 @@ const CircleCI = require("@circleci/circleci-config-sdk");
 const fs = require('fs');
 
 
-// Import Config Components
+// Import Config Components .
 const dockerNode = require("./executors/docker-node");
 const jobA = require("./jobs/jobA");
 const jobB = require("./jobs/jobB");
