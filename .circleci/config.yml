@@ -1,7 +1,7 @@
 
 version: 2.1
 orbs:
-  # Continuation orb makes it easy to send
+  # Continuation orb makes it easy to send to
   # the generated config to the continuation API.
   continuation: circleci/continuation@0.2.0
   # Node orb used to build our config app in a Node environment.
