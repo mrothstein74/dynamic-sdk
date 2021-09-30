@@ -31,8 +31,6 @@ myConfig.addWorkflow(dynamicWorkflow);
 // New Config file
 const MyNewConfigYAML = myConfig.stringify();
 
-const fs = require('fs');
-
 fs.writeFile('./dynamicConfig.yml', MyNewConfigYAML, (err) => {
     if (err) {
       console.log(err);
